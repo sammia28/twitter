@@ -6,10 +6,15 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <form class="cuadro-texto" id="formulario">
-        <textarea id="ingreso-texto" class="txt-twitter" rows="4" cols="50" placeholder="Ingresa publicación"></textarea><br><br>
-        <button type="button" id="publicar" class="boton">Publicar</button>
-    </form>
+   
+   <div class="cuadro-publicacion">
+       <img src="img/usuario-twitter.jpg"  class="usuario" alt="usuario">
+        <form class="cuadro-texto" id="formulario">
+            <textarea id="ingreso-texto" class="txt-twitter" rows="4" cols="50" placeholder="Ingresa publicación"></textarea><br><br>
+            <input type="button" value="Contar las palabras" onClick="wordCount();">
+            <button type="button" id="publicar" class="boton">Publicar</button>
+        </form>    
+   </div>
     <div id="publicacion"></div>
     <script type="text/javascript" src="javaScript/app.js"></script>
 </body>
