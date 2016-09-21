@@ -1,21 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Twitter</title>
-    <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-   
-   <div class="cuadro-publicacion">
-       <img src="img/usuario-twitter.jpg"  class="usuario" alt="usuario">
-        <form class="cuadro-texto" id="formulario">
-            <textarea id="ingreso-texto" class="txt-twitter" rows="4" cols="50" placeholder="Ingresa publicación"></textarea><br><br>
-            <input type="button" value="Contar las palabras" onClick="wordCount();">
-            <button type="button" id="publicar" class="boton">Publicar</button>
-        </form>    
-   </div>
-    <div id="publicacion"></div>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Twitter</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+    </head>
+    <body>
+        <div class="cuadro-publicacion col-xs-offset-4 col-xs-5">
+            <form class="cuadro-texto" id="formulario">
+                <img src="img/usuario-twitter.jpg"  class="usuario" alt="usuario">
+                <textarea id="ingresoTexto" class="txt-twitter"  cols="50" placeholder="¿Qué está pasando?"></textarea> 
+                <br><br>
+                <button type="submit" id="publicar" class="boton">Twitear</button>
+                <div id="contador"></div>
+            </form>    
+        <div id="tweet-publicado"></div>
+        </div>
     <script type="text/javascript" src="javaScript/app.js"></script>
-</body>
+    </body>
 </html>
+
+
