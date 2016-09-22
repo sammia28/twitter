@@ -1,42 +1,115 @@
 body {
-    background: url(../img/fondo-para-pantalla.jpg) no-repeat;
+    background-color: #F5F8FA;
     width: 100%;
     height: 100%;
     background-size: 100%;
     background-size: cover;
 }
-.usuario {
-    width: 13%;
-    margin-right: 5%;
+.cuadro-publicacion{
+    margin-top: 3%;
+    
+}
+.img-header{
+    width: 100%;
+    height: 50px;
+}
+
+.cuadro-portada{
+    background-color: #339CC3;
+    border-radius: 3px;
+    width: 100%;
+    height: 80px;
+    
+}
+
+.img-profile{
+	width: 26%;
+    height: 86px;
+    margin: -12% 0 0 6%;
+    border-radius: 5px;
+}
+.usuario-name{
+	float: right;
+    margin: -14% 16% 0 0;
+    font-size: 16px;
+}
+
+.usuario-subname{
+ 	float: right;
+    margin: -15% 32% 0 0;
+    color: gray;
+}
+.menu-usuario{
+	background-color: #FFFFFF;
+    width: 100%;
+    height: 100px;
+    margin-top: -23%;
+}
+.tweet-usuario{
+    color: gray;
+    font-size: 12px;
+	float: left;
+    margin: -1% 4% 0 4%;
+    text-align: center;
+    
+}
+.cuadro-texto{
+    background-color: #E9F1F8;
+    margin-top: -15%;
+}
+#numero{
+	color: #317BB9;
+    font-size: 19px;
+}
+.estado{
+	margin-top: 3%;
+}
+.usuario{
+    width: 18%;
+    height: 44px;
+    margin: 0% 5px 0 6%;
+    border-radius: 5px;
     float: left;
 }
 
-.cuadro-publicacion #formulario {
-    padding: 5%;
-    background: #E9F1F8;
-    border-radius: 10px;
-    margin-top: 7%;
-}
-#ingresoTexto {
-    font-size: 12px;
-    font-family: verdana;
+.txt-twitter{
     overflow: hidden;
+    margin: -16% 0 0 28%;
+    padding: 9% 22% 0 9%;
 }
 
-#publicar {
-    padding: 1%;
-    margin-left: 82%;
-    font-family: verdana;
+.boton{
+    background-color: #2F99C2;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 4px 19px;
+    margin-left: 173%;
+    margin-top: -3%;
+}
+.boton:disabled{
+    background-color: #BADAEA;
 }
 
-#contador {
-    font-family: arial;
-    margin-left: 70%;
-    margin-top: -4%;
+.iconos{
+    font-size: x-large;
+    margin-left: 27%;
 }
 
-#tweet-publicado {
-    margin-top: 7%;
-    background: #E9F1F8;
-    border-radius: 5px;  
+#contador{
+	
 }
+
+#tweet-publicado{
+    width: 42%;
+    height: 65px;
+    color: black;
+    word-break: break-all;
+    word-wrap: break-word;
+    clear: both;
+    margin: 10% 0 0 33%;
+    background-color: #BADAEA;
+}
+    
+}
+

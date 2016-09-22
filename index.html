@@ -5,20 +5,61 @@
         <title>Twitter</title>
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
     </head>
     <body>
-        <div class="cuadro-publicacion col-xs-offset-4 col-xs-5">
-            <form class="cuadro-texto" id="formulario">
-                <img src="img/usuario-twitter.jpg"  class="usuario" alt="usuario">
+        <header>
+            <img src="img/header.png" alt="header" class="img-header">
+        </header>
+        <section class="cuadro-publicacion col-xs-offset-1  col-xs-3">
+            <div id="portada">
+                <div class="cuadro-portada"></div>
+                <img class="img-profile" src="img/foto-perfil-twt.jpg" alt="usuario">
+            </div>
+            <div class="profile">
+                <div class="profile-usuario">
+                    <span class="usuario-name"> <strong>Sammia Zubizarreta </strong></span> <br>
+                    <span class="usuario-subname">@Zubizarreta28</span>
+                </div> <!--profile-usuario-->
+                <div>
+                    <div class="menu-usuario">
+                        <div class="tweet-usuario">
+                            <p>TWEETS</p>
+                            <span id="numero" class="tweet-cant">2</span>
+                        </div> <!--tweet-usuario-->
+                        <div  class="tweet-usuario">
+                            <p>SIGUIENDO</p>
+                            <span id="numero" class="siguiendo-cant">80</span>
+                        </div> <!--tweet-usuario-->
+                        <div class="tweet-usuario">
+                            <p>SEGUIDORES</p>
+                            <span id="numero" class="seguidores-cant">40</span>
+                        </div> <!--tweet-usuario-->
+                    </div> <!--menu-usuario-->
+                </div>
+            </div> <!--profile-->
+        </section>
+        <form class="cuadro-texto  col-xs-offset-4 col-xs-5" id="formulario">
+            <div class="estado col-xs-6">
+                <img src="img/foto-perfil-twt.jpg"  class="usuario" alt="usuario">
                 <textarea id="ingresoTexto" class="txt-twitter"  cols="50" placeholder="¿Qué está pasando?"></textarea> 
                 <br><br>
+                <div  class="opciones"></div>
+                <div class="iconos col-xs-7">
+                    <a href="#"><i class="fa fa-camera icono"></i></a>
+                    <a href="#"><i class="fa fa-gift"></i></a>
+                    <a href="#"><i class="fa fa-bars"></i></a>
+                    <a href="#"><i class="fa fa-map-marker icono"></i></a>
+                </div> <!--iconos-->
                 <button type="submit" id="publicar" class="boton">Twitear</button>
                 <div id="contador"></div>
-            </form>    
+            </div><!-- estado-->
+        </form>    
         <div id="tweet-publicado"></div>
-        </div>
-    <script type="text/javascript" src="javaScript/app.js"></script>
+        <script type="text/javascript" src="javaScript/app.js"></script>
     </body>
 </html>
+
 
 
